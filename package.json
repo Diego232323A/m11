@@ -1,0 +1,14 @@
+{
+    "name": "update_user",
+    "version": "1.0.0",
+    "description": "Microservice for updating users in MongoDB",
+    "main": "index.js",
+    "scripts": {
+        "start": "node updateUser.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongodb": "^4.1.4",
+        "mongoose": "^8.5.1"
+    }
+}
